@@ -1,0 +1,19 @@
+.panda__bg__info{
+    background-color: #FEEAE9;
+}
+
+.catagories img{
+    width: 100px;
+}
+
+.panda__buynow__btn{
+    background-color: #ff136f;
+    border: 1px solid #ff136f;
+    color: white;
+    transition: 250ms ease-in-out;
+}
+
+.panda__buynow__btn:hover{
+    background-color: transparent;
+    color: #ff136f;
+}
