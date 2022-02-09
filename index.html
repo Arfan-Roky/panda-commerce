@@ -13,7 +13,7 @@
   <body>
     <!-- Header -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav id="nav-dark" class="navbar nav_toggle shadow-lg bg-light text-black navbar-expand-lg fixed-top">
         <div class="container">
           <!-- logo -->
           <a class="navbar-brand" href="#">
@@ -36,22 +36,27 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link active text-black" href="#">Home</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#shoes">Shoes</a>
+                <a class="nav-link text-black" href="#shoes">Shoes</a>
               </li>
 
               <li class="nav-item dropdown">
-                <a class="nav-link" href="#backpack"> Backpack </a>
+                <a class="nav-link text-black" href="#backpack"> Backpack </a>
               </li>
 
-              <li class="nav-item">
-                <a href="#subscirbe" class="nav-link">Subscribe</a>
+              <li class="nav-item ">
+                <a href="#subscirbe" class="nav-link text-black">Subscribe</a>
               </li>
+
+          
             </ul>
           </div>
+          <button onclick="darkMode()" href="#" class="text-end" id="dark-white">
+            Dark
+          </button>
         </div>
       </nav>
 
@@ -67,7 +72,7 @@
             <!-- item one -->
             <div class="carousel-item active rounded p-5">
               <div
-                class="row panda__bg__info bg-gradient d-flex align-items-center"
+                class=" row banner1 panda__bg__info  bg-gradient d-flex align-items-center"
               >
                 <!-- text  -->
                 <div class="col-lg-6">
@@ -93,7 +98,7 @@
             <!-- item two -->
             <div class="carousel-item rounded p-5">
               <div
-                class="row panda__bg__info bg-gradient d-flex align-items-center"
+                class="row banner2 panda__bg__info bg-gradient d-flex align-items-center"
               >
                 <!-- text  -->
                 <div class="col-lg-6">
@@ -119,7 +124,7 @@
             <!-- item three -->
             <div class="carousel-item rounded p-5">
               <div
-                class="row panda__bg__info bg-gradient d-flex align-items-center"
+                class="row banner3 panda__bg__info bg-gradient d-flex align-items-center"
               >
                 <!-- text  -->
                 <div class="col-lg-6">
@@ -174,7 +179,7 @@
           <!-- watch -->
           <div class="col-lg-4 col-md-6">
             <div
-              class="p-3 bg-warning d-flex align-items-center justify-content-between rounded-3"
+              class="p-3 watch bg-warning d-flex align-items-center justify-content-between rounded-3"
             >
               <h1 class="text-white">Watch</h1>
               <img src="images/categories/watch.png" alt="" />
@@ -184,7 +189,7 @@
           <!-- bag -->
           <div class="col-lg-4 col-md-6">
             <div
-              class="p-3 bg-success d-flex align-items-center justify-content-between rounded-3"
+              class="p-3 bag bg-success d-flex align-items-center justify-content-between rounded-3"
             >
               <h1 class="text-white">Bag</h1>
               <img src="images/categories/bag.png" alt="" />
@@ -194,7 +199,7 @@
           <!-- shoes  -->
           <div class="col-lg-4 col-md-6">
             <div
-              class="p-3 bg-primary d-flex align-items-center justify-content-between rounded-3"
+              class="p-3 shoe bg-primary d-flex align-items-center justify-content-between rounded-3"
             >
               <h1 class="text-white">Shoes</h1>
               <img src="images/categories/shoes.png" alt="" />
@@ -204,11 +209,11 @@
       </section>
 
       <!-- shoes card  -->
-      <section class="container my-5" id="shoes">
+      <section class="container my-5 shoes" id="shoes">
         <h2>Shoes</h2>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <div class="col">
-            <div class="card border-0 shadow-lg h-100 pb-2">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
+          <div class="col ">
+            <div class="card item1 border-0 shadow-lg h-100 pb-2">
               <img
                 src="images/shoes/shoe-1.png"
                 class="card-img-top"
@@ -228,8 +233,8 @@
             </div>
           </div>
 
-          <div class="col">
-            <div class="card border-0 shadow-lg h-100 pb-2">
+          <div class="col ">
+            <div class="card item2 border-0 shadow-lg h-100 pb-2">
               <img
                 src="images/shoes/shoe-2.png"
                 class="card-img-top"
@@ -248,8 +253,8 @@
             </div>
           </div>
 
-          <div class="col">
-            <div class="card border-0 shadow-lg h-100 pb-2">
+          <div class="col ">
+            <div class="card item3 border-0 shadow-lg h-100 pb-2">
               <img
                 src="images/shoes/shoe-3.png"
                 class="card-img-top"
@@ -276,7 +281,7 @@
         <h2>Backpack</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
-            <div class="card border-0 shadow-lg h-100 pb-2">
+            <div class="card item4 border-0 shadow-lg h-100 pb-2">
               <img src="images/bags/bag-1.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Red Laltu Bag</h5>
@@ -294,7 +299,7 @@
           </div>
 
           <div class="col">
-            <div class="card border-0 shadow-lg h-100 pb-2">
+            <div class="card  item5 border-0 shadow-lg h-100 pb-2">
               <img src="images/bags/bag-2.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Blue Niltu Bag</h5>
@@ -311,7 +316,7 @@
           </div>
 
           <div class="col">
-            <div class="card border-0 shadow-lg h-100 pb-2">
+            <div class="card  item6 border-0 shadow-lg h-100 pb-2">
               <img src="images/bags/bag-3.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Black Kaltu Bag</h5>
@@ -332,7 +337,7 @@
 
       <!-- Subscribe -->
       <section
-        class="container my-5 d-flex justify-content-center align-items-center panda__bg__info rounded-3"
+        class="container my-5 d-flex justify-content-center align-items-center panda__bg__info panda rounded-3"
         style="height: 300px"
         id="subscirbe"
       >
@@ -354,6 +359,8 @@
         >&copy;2022 Panda Commerce All rights reserved. Sofia Bulgaria</small
       >
     </footer>
+    <!-- js link -->
+    <script src="js/main.js"></script>
 
     <!-- bootstrap js link -->
     <script src="link/js/bootstrap.bundle.min.js"></script>

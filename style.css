@@ -1,5 +1,79 @@
+#dark-white{
+    outline: none;
+    border: none;
+    box-sizing: 4px 4px 15px rgba(0,0,0,0.5);
+    padding: .3rem .5rem ;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+.nav-bg-color{
+    background-color: white;
+    box-sizing: 4px 4px 15px rgba(0,0,0,.5);
+}
+
+.dark-mode{
+    background-color: black ;
+    color: white ;
+}
+
 .panda__bg__info{
     background-color: #FEEAE9;
+}
+
+.banner-part1{
+    background-color: black;
+    color: white;
+    box-shadow: 4px 4px 15px rgba(83, 73, 73, 0.76),
+    -4px -4px 15px rgba(138, 123, 123, 0.76);
+}
+
+.banner-part2{
+    background-color: black;
+    color: white;
+    box-shadow: 4px 4px 15px rgba(83, 73, 73, 0.76),
+    -4px -4px 15px rgba(138, 123, 123, 0.76);
+}
+
+.banner-part3{
+    background-color: black;
+    color: white;
+    box-shadow: 4px 4px 15px rgba(83, 73, 73, 0.76),
+    -4px -4px 15px rgba(138, 123, 123, 0.76);
+}
+
+
+
+
+.watch-bg-color{
+    background-color: black !important;
+    box-shadow: 4px 4px 15px rgba(83, 73, 73, 0.76),
+    -4px -4px 15px rgba(138, 123, 123, 0.76);
+}
+
+.bag-bg-color{
+    background-color: black !important;
+    box-shadow: 4px 4px 15px rgba(83, 73, 73, 0.76),
+    -4px -4px 15px rgba(138, 123, 123, 0.76);
+}
+
+.shoe-bg-color{
+    background-color: black !important;
+    box-shadow: 4px 4px 15px rgba(83, 73, 73, 0.76),
+    -4px -4px 15px rgba(138, 123, 123, 0.76);
+}
+
+
+.item-bg-color{
+    background-color: black ;
+    box-shadow: 4px 4px 15px rgba(83, 73, 73, 0.76),
+    -4px -4px 15px rgba(138, 123, 123, 0.76) !important;
+}
+
+.panda-bg-color{
+    background-color: black;
+    box-shadow: 4px 4px 15px rgba(83, 73, 73, 0.76),
+    -4px -4px 15px rgba(138, 123, 123, 0.76) ;
 }
 
 .catagories img{
